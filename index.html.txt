@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Media Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Social Media Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#youtube">YouTube</a></li>
+                    <li><a href="#tiktok">TikTok</a></li>
+                    <li><a href="#instagram">Instagram</a></li>
+                    <li><a href="#twitter">Twitter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="youtube" class="video-section">
+        <div class="container">
+            <h2>YouTube Videos</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="tiktok" class="video-section">
+        <div class="container">
+            <h2>TikTok Videos</h2>
+            <div class="video-container">
+                <iframe src="https://www.tiktok.com/embed/6844390734441367297" width="300" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="instagram" class="social-section">
+        <div class="container">
+            <h2>Instagram Feed</h2>
+            <p><a href="https://www.instagram.com" target="_blank">Visit our Instagram</a></p>
+        </div>
+    </section>
+
+    <section id="twitter" class="social-section">
+        <div class="container">
+            <h2>Twitter Feed</h2>
+            <p><a href="https://twitter.com" target="_blank">Visit our Twitter</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Social Media Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
